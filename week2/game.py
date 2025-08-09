@@ -15,6 +15,8 @@ def game():
                 num=num+1
                 word[i]=letter
                 print("correct,the word is ",word)
+                if ''.join(word)==a:
+                    print("you win")
                 break
             if i==b-1:
                 life=life-1
