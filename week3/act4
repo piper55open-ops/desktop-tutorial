@@ -1,0 +1,18 @@
+WEEK3 ACTIVIY4
+Design a database for YB college:
+1.	Project scope (short paragraph)
+YOOBEE COLLEGE intends to establish a database to store information in order to efficiently store, manage, retrieve, and update data, and to ensure the security and integrity of data. Entities include: students, teachers, courses, classes.
+2.	Entities and EER diagram
+Entity: Student, Teacher, Course, Class.
+Student: student number, name, gender, date of birth, nationality
+Teacher: job number, name, gender, date of birth, major
+Course: name, ID number, hours
+Class: ID number, name, number of people
+3. 
+Student(student_number, name, gender, date_of_birth, nationality)
+Teacher(job_number, name, gender, date_of_birth, major)
+Course(course_id, name, hours)
+Class(class_id, name, number_of_people)
+Class-Course
+Teacher-Course
+6 tables
